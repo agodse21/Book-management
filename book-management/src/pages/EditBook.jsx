@@ -69,7 +69,7 @@ const EditBook=()=>{
             duration: 3000,
             isClosable: true,
           })
-        navigate("/")
+        navigate("/Book-management")
     })
    }
 

@@ -9,7 +9,7 @@ import SingleBook from "./SingleBook";
 function AllRoutes(){
     return(
         <Routes>
-           <Route path="/" element={<Books />} />
+           <Route path="/Book-management" element={<Books />} />
   <Route path="/books/:id" element={<RequireAuth><SingleBook /></RequireAuth>} />
   <Route path="/books/:id/edit" element={
   <RequireAdmin><EditBook /></RequireAdmin>} />

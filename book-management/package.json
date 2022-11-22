@@ -1,4 +1,5 @@
 {
+  "homepage": "https://agodse21/Book-management",
   "name": "book-management",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "server": "json-server --watch db.json --port 8080",
     "start": "react-scripts start",
     "build": "react-scripts build",

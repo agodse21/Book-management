@@ -29,7 +29,7 @@ const Navbar=()=>{
     const Navigate=useNavigate();
     const LogOutUser=()=>{
 dispatch(LogOut());
-Navigate("/")
+Navigate("/Book-management")
     }
 
     return(
@@ -37,7 +37,7 @@ Navigate("/")
         <Desktop>
         <Box bg="blue" color="white" fontWeight="bold">
             <Flex alignItems="center" w="90%" m="auto" p="20px" justifyContent="space-between">
-<Link to="/">
+<Link to="/Book-management">
    <Box border="1px solid white" p="5px 10px" fontWeight="bold" borderRadius={5} _hover={{bg:"white",color:"black",border:"1px solid black"}}> HOME</Box></Link>
    <Box fontSize="40px">Central Library</Box>
    {
@@ -50,7 +50,7 @@ Navigate("/")
         <Tablet>
         <Box bg="blue" color="white" fontWeight="bold">
             <Flex alignItems="center" w="90%" m="auto" p="20px" justifyContent="space-between">
-<Link to="/">
+<Link to="/Book-management">
    <Box border="1px solid white" p="5px 10px" fontWeight="bold" borderRadius={5} _hover={{bg:"white",color:"black",border:"1px solid black"}}> HOME</Box></Link>
    <Box fontSize="40px">Central Library</Box>
    {
@@ -64,7 +64,7 @@ Navigate("/")
         <Mobile>
         <Box bg="blue" color="white" fontWeight="bold">
             <Flex alignItems="center" w="90%" m="auto" p="20px" justifyContent="space-between">
-<Link to="/">
+<Link to="/Book-management">
    <Box border="1px solid white" p="3px 5px" fontWeight="bold" borderRadius={5} _hover={{bg:"white",color:"black",border:"1px solid black"}}> HOME</Box></Link>
    <Box fontSize="18px">Central Library</Box>
    {

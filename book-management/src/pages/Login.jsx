@@ -12,7 +12,7 @@ const Login=()=>{
     const navigate=useNavigate();
    const location =useLocation();
    const toast = useToast()
-   const comingFrom=location.state?.data||"/";
+   const comingFrom=location.state?.data||"/Book-management";
     const handleLogin=(e)=>{
         e.preventDefault();
         // dispatch(userLo)
